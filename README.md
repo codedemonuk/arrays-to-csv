@@ -51,7 +51,7 @@ data = [
 var csvGenerator = new arrayToCsv(data, { delimiter: ',' });
 
 //Execute the method
-var csv = csVGenerator.getCsv();
+var csv = csvGenerator.getCsv();
 
 ```
 
@@ -77,7 +77,7 @@ data = [
 var csvGenerator = new arrayToCsv(data, { delimiter: ',' });
 
 //Execute the method
-csVGenerator.saveFile('./data.csv');
+csvGenerator.saveFile('./data.csv');
 
 ```
 # Params new arrayToCsv(data, params = {})
